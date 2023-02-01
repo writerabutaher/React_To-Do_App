@@ -36,7 +36,7 @@ form button {
 }
 
 form button {
-  color: #ff6f47;
+  color: #ff5627;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -134,7 +134,7 @@ select {
 }
 
 select {
-  color: #ff6f47;
+  color: #ff5121;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   width: 12rem;
