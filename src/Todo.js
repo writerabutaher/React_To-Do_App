@@ -10,10 +10,12 @@ const Todo = ({ text, todo, todos, setTodos }) => {
         setTodos(todos.map(item => {
             if (item.id === todo.id) {
                 return {
-                    ...item, completed: !item.completed
+                    id: item.id,
+                    text: item.text,
+                    completed: !item.completed
                 }
             }
-            return item
+            return item;
         }))
     }
 
